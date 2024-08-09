@@ -73,21 +73,13 @@
 		960DEED02C649652009C994A /* Appetizers */ = {
 			isa = PBXGroup;
 			children = (
+				967759AB2C65EF5000862775 /* Model */,
+				967759A72C65EEFA00862775 /* Utilities */,
+				967759AD2C65EF7800862775 /* Views */,
+				967759A32C65EE9F00862775 /* Screens */,
 				960DEED12C649652009C994A /* AppetizersApp.swift */,
-				967759992C65D13400862775 /* AppetizerListViewModel.swift */,
-				960DEED32C649652009C994A /* AppetizerTabView.swift */,
 				960DEED52C649653009C994A /* Assets.xcassets */,
 				960DEED72C649653009C994A /* Preview Content */,
-				960DEEDF2C64A95E009C994A /* AppetizerListView.swift */,
-				960DEEE12C64A96D009C994A /* AccountView.swift */,
-				960DEEE32C64A97A009C994A /* OrderView.swift */,
-				960DEEE52C64E562009C994A /* Appetizer.swift */,
-				960DEEE72C64EBBE009C994A /* AppetizerListCell.swift */,
-				967759952C65B2AA00862775 /* NetworkManager.swift */,
-				967759972C65B3C600862775 /* APError.swift */,
-				9677599B2C65D2A400862775 /* Alert.swift */,
-				9677599D2C65E5AF00862775 /* LoadingView.swift */,
-				967759A12C65EB0900862775 /* RemoteImage.swift */,
 			);
 			path = Appetizers;
 			sourceTree = "<group>";
@@ -98,6 +90,110 @@
 				960DEED82C649653009C994A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		967759A32C65EE9F00862775 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				960DEED32C649652009C994A /* AppetizerTabView.swift */,
+				967759A42C65EEA400862775 /* AppetizerListView */,
+				967759A52C65EEBB00862775 /* AccountView */,
+				967759A62C65EEC200862775 /* OrderView */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		967759A42C65EEA400862775 /* AppetizerListView */ = {
+			isa = PBXGroup;
+			children = (
+				967759992C65D13400862775 /* AppetizerListViewModel.swift */,
+				960DEEDF2C64A95E009C994A /* AppetizerListView.swift */,
+			);
+			path = AppetizerListView;
+			sourceTree = "<group>";
+		};
+		967759A52C65EEBB00862775 /* AccountView */ = {
+			isa = PBXGroup;
+			children = (
+				960DEEE12C64A96D009C994A /* AccountView.swift */,
+			);
+			path = AccountView;
+			sourceTree = "<group>";
+		};
+		967759A62C65EEC200862775 /* OrderView */ = {
+			isa = PBXGroup;
+			children = (
+				960DEEE32C64A97A009C994A /* OrderView.swift */,
+			);
+			path = OrderView;
+			sourceTree = "<group>";
+		};
+		967759A72C65EEFA00862775 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				967759AA2C65EF2400862775 /* Alerts */,
+				967759A82C65EF0500862775 /* Managers */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		967759A82C65EF0500862775 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				967759952C65B2AA00862775 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		967759AA2C65EF2400862775 /* Alerts */ = {
+			isa = PBXGroup;
+			children = (
+				967759972C65B3C600862775 /* APError.swift */,
+				9677599B2C65D2A400862775 /* Alert.swift */,
+			);
+			path = Alerts;
+			sourceTree = "<group>";
+		};
+		967759AB2C65EF5000862775 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				960DEEE52C64E562009C994A /* Appetizer.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		967759AC2C65EF6100862775 /* UIKit Components */ = {
+			isa = PBXGroup;
+			children = (
+				9677599D2C65E5AF00862775 /* LoadingView.swift */,
+			);
+			path = "UIKit Components";
+			sourceTree = "<group>";
+		};
+		967759AD2C65EF7800862775 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				967759B02C65EF9800862775 /* Image */,
+				967759AF2C65EF8F00862775 /* Cells */,
+				967759AC2C65EF6100862775 /* UIKit Components */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		967759AF2C65EF8F00862775 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				960DEEE72C64EBBE009C994A /* AppetizerListCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		967759B02C65EF9800862775 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				967759A12C65EB0900862775 /* RemoteImage.swift */,
+			);
+			path = Image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
