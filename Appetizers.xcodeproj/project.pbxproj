@@ -18,6 +18,7 @@
 		960DEEE82C64EBBE009C994A /* AppetizerListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 960DEEE72C64EBBE009C994A /* AppetizerListCell.swift */; };
 		967759962C65B2AA00862775 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759952C65B2AA00862775 /* NetworkManager.swift */; };
 		967759982C65B3C600862775 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759972C65B3C600862775 /* APError.swift */; };
+		9677599A2C65D13400862775 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759992C65D13400862775 /* AppetizerListViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		960DEEE72C64EBBE009C994A /* AppetizerListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListCell.swift; sourceTree = "<group>"; };
 		967759952C65B2AA00862775 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		967759972C65B3C600862775 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
+		967759992C65D13400862775 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				960DEED12C649652009C994A /* AppetizersApp.swift */,
+				967759992C65D13400862775 /* AppetizerListViewModel.swift */,
 				960DEED32C649652009C994A /* AppetizerTabView.swift */,
 				960DEED52C649653009C994A /* Assets.xcassets */,
 				960DEED72C649653009C994A /* Preview Content */,
@@ -161,6 +164,7 @@
 				960DEEE62C64E562009C994A /* Appetizer.swift in Sources */,
 				967759982C65B3C600862775 /* APError.swift in Sources */,
 				960DEEE82C64EBBE009C994A /* AppetizerListCell.swift in Sources */,
+				9677599A2C65D13400862775 /* AppetizerListViewModel.swift in Sources */,
 				960DEEE22C64A96D009C994A /* AccountView.swift in Sources */,
 				960DEED42C649652009C994A /* AppetizerTabView.swift in Sources */,
 				967759962C65B2AA00862775 /* NetworkManager.swift in Sources */,
