@@ -7,8 +7,6 @@
 
 import Foundation
 
-// https://seanallen-course-backend.herokuapp.com/swiftui-fundamentals/
-
 struct Appetizer: Decodable, Identifiable {
     let id: Int
     let name: String
