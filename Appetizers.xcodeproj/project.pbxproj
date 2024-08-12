@@ -19,6 +19,8 @@
 		961C51302C67242B0077F25C /* AppetizerDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C512F2C67242B0077F25C /* AppetizerDetailView.swift */; };
 		961C51332C6A04480077F25C /* APButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C51322C6A04480077F25C /* APButton.swift */; };
 		961C51352C6A04F30077F25C /* XDismissButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C51342C6A04F30077F25C /* XDismissButton.swift */; };
+		961C51372C6A0C0C0077F25C /* AccountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C51362C6A0C0C0077F25C /* AccountViewModel.swift */; };
+		961C513C2C6A0D860077F25C /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 961C513B2C6A0D860077F25C /* String+Ext.swift */; };
 		967759962C65B2AA00862775 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759952C65B2AA00862775 /* NetworkManager.swift */; };
 		967759982C65B3C600862775 /* APError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759972C65B3C600862775 /* APError.swift */; };
 		9677599A2C65D13400862775 /* AppetizerListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759992C65D13400862775 /* AppetizerListViewModel.swift */; };
@@ -41,6 +43,8 @@
 		961C512F2C67242B0077F25C /* AppetizerDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerDetailView.swift; sourceTree = "<group>"; };
 		961C51322C6A04480077F25C /* APButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APButton.swift; sourceTree = "<group>"; };
 		961C51342C6A04F30077F25C /* XDismissButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XDismissButton.swift; sourceTree = "<group>"; };
+		961C51362C6A0C0C0077F25C /* AccountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewModel.swift; sourceTree = "<group>"; };
+		961C513B2C6A0D860077F25C /* String+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Ext.swift"; sourceTree = "<group>"; };
 		967759952C65B2AA00862775 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		967759972C65B3C600862775 /* APError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APError.swift; sourceTree = "<group>"; };
 		967759992C65D13400862775 /* AppetizerListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppetizerListViewModel.swift; sourceTree = "<group>"; };
@@ -107,6 +111,14 @@
 			path = Buttons;
 			sourceTree = "<group>";
 		};
+		961C51382C6A0D6E0077F25C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				961C513B2C6A0D860077F25C /* String+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		967759A32C65EE9F00862775 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -131,6 +143,7 @@
 		967759A52C65EEBB00862775 /* AccountView */ = {
 			isa = PBXGroup;
 			children = (
+				961C51362C6A0C0C0077F25C /* AccountViewModel.swift */,
 				960DEEE12C64A96D009C994A /* AccountView.swift */,
 			);
 			path = AccountView;
@@ -147,6 +160,7 @@
 		967759A72C65EEFA00862775 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				961C51382C6A0D6E0077F25C /* Extensions */,
 				967759AA2C65EF2400862775 /* Alerts */,
 				967759A82C65EF0500862775 /* Managers */,
 			);
@@ -283,6 +297,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				961C513C2C6A0D860077F25C /* String+Ext.swift in Sources */,
 				960DEEE62C64E562009C994A /* Appetizer.swift in Sources */,
 				967759982C65B3C600862775 /* APError.swift in Sources */,
 				960DEEE82C64EBBE009C994A /* AppetizerListCell.swift in Sources */,
@@ -298,6 +313,7 @@
 				9677599C2C65D2A400862775 /* Alert.swift in Sources */,
 				960DEEE02C64A95E009C994A /* AppetizerListView.swift in Sources */,
 				960DEEE42C64A97A009C994A /* OrderView.swift in Sources */,
+				961C51372C6A0C0C0077F25C /* AccountViewModel.swift in Sources */,
 				961C51352C6A04F30077F25C /* XDismissButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
