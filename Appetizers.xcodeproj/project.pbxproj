@@ -27,6 +27,7 @@
 		9677599C2C65D2A400862775 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677599B2C65D2A400862775 /* Alert.swift */; };
 		9677599E2C65E5AF00862775 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677599D2C65E5AF00862775 /* LoadingView.swift */; };
 		967759A22C65EB0900862775 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759A12C65EB0900862775 /* RemoteImage.swift */; };
+		96B4879C2C6B4B2000782D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4879B2C6B4B2000782D6B /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		9677599B2C65D2A400862775 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 		9677599D2C65E5AF00862775 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		967759A12C65EB0900862775 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
+		96B4879B2C6B4B2000782D6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			isa = PBXGroup;
 			children = (
 				960DEEE52C64E562009C994A /* Appetizer.swift */,
+				96B4879B2C6B4B2000782D6B /* User.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				960DEEE42C64A97A009C994A /* OrderView.swift in Sources */,
 				961C51372C6A0C0C0077F25C /* AccountViewModel.swift in Sources */,
 				961C51352C6A04F30077F25C /* XDismissButton.swift in Sources */,
+				96B4879C2C6B4B2000782D6B /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
