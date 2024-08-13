@@ -28,6 +28,7 @@
 		9677599E2C65E5AF00862775 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9677599D2C65E5AF00862775 /* LoadingView.swift */; };
 		967759A22C65EB0900862775 /* RemoteImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 967759A12C65EB0900862775 /* RemoteImage.swift */; };
 		96B4879C2C6B4B2000782D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4879B2C6B4B2000782D6B /* User.swift */; };
+		96B4879F2C6B54EC00782D6B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4879E2C6B54EC00782D6B /* EmptyState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		9677599D2C65E5AF00862775 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
 		967759A12C65EB0900862775 /* RemoteImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteImage.swift; sourceTree = "<group>"; };
 		96B4879B2C6B4B2000782D6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		96B4879E2C6B54EC00782D6B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 		967759AD2C65EF7800862775 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				96B4879D2C6B54DD00782D6B /* Empty States */,
 				961C51312C6A043A0077F25C /* Buttons */,
 				967759B02C65EF9800862775 /* Image */,
 				967759AF2C65EF8F00862775 /* Cells */,
@@ -228,6 +231,14 @@
 				967759A12C65EB0900862775 /* RemoteImage.swift */,
 			);
 			path = Image;
+			sourceTree = "<group>";
+		};
+		96B4879D2C6B54DD00782D6B /* Empty States */ = {
+			isa = PBXGroup;
+			children = (
+				96B4879E2C6B54EC00782D6B /* EmptyState.swift */,
+			);
+			path = "Empty States";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -307,6 +318,7 @@
 				961C51332C6A04480077F25C /* APButton.swift in Sources */,
 				9677599A2C65D13400862775 /* AppetizerListViewModel.swift in Sources */,
 				960DEEE22C64A96D009C994A /* AccountView.swift in Sources */,
+				96B4879F2C6B54EC00782D6B /* EmptyState.swift in Sources */,
 				9677599E2C65E5AF00862775 /* LoadingView.swift in Sources */,
 				967759A22C65EB0900862775 /* RemoteImage.swift in Sources */,
 				960DEED42C649652009C994A /* AppetizerTabView.swift in Sources */,
