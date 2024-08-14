@@ -30,6 +30,7 @@
 		96A1C4062C6C5EBE00B8B710 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A1C4052C6C5EBE00B8B710 /* Order.swift */; };
 		96B4879C2C6B4B2000782D6B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4879B2C6B4B2000782D6B /* User.swift */; };
 		96B4879F2C6B54EC00782D6B /* EmptyState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4879E2C6B54EC00782D6B /* EmptyState.swift */; };
+		96EF029E2C6C6C5F00A27E3E /* CustomModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EF029D2C6C6C5F00A27E3E /* CustomModifiers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		96A1C4052C6C5EBE00B8B710 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 		96B4879B2C6B4B2000782D6B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		96B4879E2C6B54EC00782D6B /* EmptyState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyState.swift; sourceTree = "<group>"; };
+		96EF029D2C6C6C5F00A27E3E /* CustomModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomModifiers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,6 +218,7 @@
 				967759B02C65EF9800862775 /* Image */,
 				967759AF2C65EF8F00862775 /* Cells */,
 				967759AC2C65EF6100862775 /* UIKit Components */,
+				96EF029D2C6C6C5F00A27E3E /* CustomModifiers.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -323,6 +326,7 @@
 				96A1C4062C6C5EBE00B8B710 /* Order.swift in Sources */,
 				960DEEE22C64A96D009C994A /* AccountView.swift in Sources */,
 				96B4879F2C6B54EC00782D6B /* EmptyState.swift in Sources */,
+				96EF029E2C6C6C5F00A27E3E /* CustomModifiers.swift in Sources */,
 				9677599E2C65E5AF00862775 /* LoadingView.swift in Sources */,
 				967759A22C65EB0900862775 /* RemoteImage.swift in Sources */,
 				960DEED42C649652009C994A /* AppetizerTabView.swift in Sources */,
