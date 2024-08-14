@@ -24,7 +24,7 @@ struct OrderView: View {
                     .listStyle(.plain)
                     
                     Button {
-                        print("tapped")
+                        order.placeOrder()
                     } label: {
                         APButton(title: "$\(order.totalPrice, specifier: "%.2f") - Place Order")
                     }
@@ -37,6 +37,11 @@ struct OrderView: View {
                 }
             }
             .navigationTitle(Text("🧾 Orders"))
+        }
+        .alert(item: $order.alertItem) { alertItem in
+            Alert(title: alertItem.title,
+                  message: alertItem.message,
+                  dismissButton: alertItem.dismissButton)
         }
     }
 }

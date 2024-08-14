@@ -49,4 +49,10 @@ struct AlertContext {
     static let invalidUserData = AlertItem(title: Text("Profile Error"),
                                               message: Text("There was an error saving or retrieving your profile."),
                                               dismissButton: .default(Text("OK")))
+    
+    //MARK: - Order Alerts
+    
+    static let orderPlaced = AlertItem(title: Text("Order Placed"),
+                                              message: Text("You have successfully placed your order."),
+                                              dismissButton: .default(Text("OK")))
 }
