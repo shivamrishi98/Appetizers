@@ -16,3 +16,4 @@ struct StandardButtonStyle: ViewModifier {
             .controlSize(.large)
     }
 }
+

@@ -13,6 +13,21 @@ struct AppetizerListCell: View {
     
     var body: some View {
         HStack {
+            // Con is that it does not cache image
+//            AsyncImage(url: URL(string: appetizer.imageURL)) { image in
+//                image
+//                    .resizable()
+//                    .aspectRatio(contentMode: .fit)
+//                    .frame(width: 120,height: 90)
+//                    .cornerRadius(8)
+//            } placeholder: {
+//                Image("food-placeholder")
+//                    .resizable()
+//                    .aspectRatio(contentMode: .fit)
+//                    .frame(width: 120,height: 90)
+//                    .cornerRadius(8)
+//            }
+            
             AppetizerRemoteImage(urlString: appetizer.imageURL)
                 .aspectRatio(contentMode: .fit)
                 .frame(width: 120,height: 90)
