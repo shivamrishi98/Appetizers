@@ -40,8 +40,10 @@ struct AppetizerDetailView: View {
             Spacer()
             
             Button {
-                order.add(appetizer)
-                isShowingDetail = false
+                withAnimation {
+                    order.add(appetizer)
+                    isShowingDetail = false
+                }
             } label: {
                 Text("$\(appetizer.price, specifier: "%.2f") - Add To Order")
             }
@@ -53,7 +55,9 @@ struct AppetizerDetailView: View {
         .cornerRadius(12)
         .shadow(radius: 40)
         .overlay(Button {
-            isShowingDetail = false
+            withAnimation {
+                isShowingDetail = false
+            }
         } label: {
             XDismissButton()
         }, alignment: .topTrailing)

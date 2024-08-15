@@ -18,8 +18,10 @@ struct AppetizerListView: View {
                     AppetizerListCell(appetizer: appetizer)
                         .listRowSeparator(.hidden)
                         .onTapGesture {
-                            viewModel.selectedAppetizer = appetizer
-                            viewModel.isShowingDetail = true
+                            withAnimation {
+                                viewModel.selectedAppetizer = appetizer
+                                viewModel.isShowingDetail = true
+                            }
                         }
                 }
                 .navigationTitle("🍟 Appetizers")
